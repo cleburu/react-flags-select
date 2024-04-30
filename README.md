@@ -1,3 +1,11 @@
+# Forked branch (cleburu)
+
+This branch was forked from ekwonye-richard.github.io/react-flags-select/
+
+
+changes:
+- autofocus added to search input box
+
 # react-flags-select
 
 A React library that provides a customizable SVG flags select components and standalone SVG flags components.
