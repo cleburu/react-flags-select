@@ -250,6 +250,7 @@ const ReactFlagsSelect: React.FC<Props> = ({
                 type="text"
                 name={`${rfsKey}-q`}
                 autoComplete="off"
+                autofocus
                 value={filterValue}
                 placeholder={searchPlaceholder || defaultSearchPlaceholder}
                 ref={filterTextRef}
