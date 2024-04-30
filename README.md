@@ -2,7 +2,6 @@
 
 This branch was forked from ekwonye-richard.github.io/react-flags-select/
 
-
 changes:
 - autofocus added to search input box
 
