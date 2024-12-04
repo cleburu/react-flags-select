@@ -20,6 +20,10 @@ export default {
       format: "esm",
       sourcemap: true,
     },
+    commonjs({
+      include: /node_modules/,
+      requireReturnsDefault: "auto", // <---- this solves default issue
+    }),
   ],
   plugins: [
     peerDepsExternal(),
